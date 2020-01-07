@@ -1,0 +1,558 @@
+body{
+    position: relative;
+    margin:auto;
+    padding:0;
+    width: 1920px;
+    background-color: white;
+    background-color: #000000;
+    margin: 0px;
+    overflow: hidden;
+}
+.zhuye{
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 89px;
+    left: 1524px;
+    color:#FFFFFF ;
+    color:rgba(255,255,255,0.7)
+}
+.logout{
+    position: absolute;
+    top: 125px;
+    left: 1682px;
+    width: 142px;
+    height: 49px;
+}
+.mary{
+    font-family: PingFang TC;
+    font-size: 71px;
+    position: absolute;
+    top: 338px;
+    left: 553px;
+    color:#FFFFFF ;
+    
+}
+
+.beijin{
+   width: 1920px;
+   height:540px ;
+}
+.touxiang{
+    position: absolute;
+    top: 60px;
+    left: 39px;
+    width: 448px;
+    height: 448px;
+}
+
+.medium{
+    position: absolute;
+    top:540px ;
+    left: 0px;
+    width: 1920px;
+    height: 257px;
+
+}
+.juxing{
+    width: 1920px;
+    height: 257px;
+}
+.favourite{
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 71px;
+    position: absolute;
+    top: 77px;
+    left: 81px;
+    color:#B7B7B7 ;
+}
+.aixin1{
+    position: absolute;
+    top:70px;
+    left: 336px;
+    width: 97px;
+    height: 94px;
+}
+.footer{
+    position: absolute;
+    top: 797px;
+    width: 1920px;
+    height: 2650px;
+    color: rgba(255,255,255,1);
+}
+.p1{
+    position: absolute;
+    top:183px;
+    left: 75px;
+    width: 478px;
+    height: 595px;
+}
+.p2{
+    position: absolute;
+    top:961px;
+    left: 75px;
+    width: 478px;
+    height: 595px;
+}
+.p3{
+    position: absolute;
+    top:1739px;
+    left: 75px;
+    width: 478px;
+    height: 595px;
+}
+.aixin2{
+    position: absolute;
+    top:684px;
+    left: 728px;
+    width: 97px;
+    height: 94px;
+}
+.aixin3{
+    position: absolute;
+    top:1434px;
+    left: 728px;
+    width: 97px;
+    height: 94px;
+}
+.aixin4{
+    position: absolute;
+    top:2384px;
+    left: 728px;
+    width: 97px;
+    height: 94px;
+}
+.yi{
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 254px;
+    left: 728px;
+    width: 1073px;
+    height: 300px;
+    color:#ffffff ;
+}
+.er{
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 1032px;
+    left: 728px;
+    width: 1073px;
+    height: 300px;
+    color:#ffffff ;
+}
+.san{
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 1810px;
+    left: 728px;
+    width: 1120px;
+    height: 492px;
+    color:#ffffff ;
+}
+
+.zuihou{
+    position: absolute;
+    top: 3447px;
+    width: 1920px;
+    height: 222px;
+}
+.eryi{
+    
+    font-family: PingFang TC;
+    font-size: 32px;
+    position: absolute;
+    top: 206px;
+    left: 319px;
+    color:#FFFFFF ;
+    color:rgba(255, 255, 255, 0)
+}
+.erer{
+   
+    font-family: PingFang TC;
+    font-size: 32px;
+    position: absolute;
+    top: 562px;
+    left: 319px;
+    color:#ffffff ;
+    color:rgba(255, 255, 255, 0)
+}   
+
+
+@media (max-width:768px){
+body{
+    position: relative;
+    margin:auto;
+    padding:0;
+    width: 768px;
+    background-color: white;
+}
+.zhuye{
+    font-family: PingFang TC;
+    font-size: 14px;
+    position: absolute;
+    top: 35px;
+    left: 610px;
+    color:#FFFFFF ;
+    color:rgba(255,255,255,0.7)
+}
+.logout{
+    position: absolute;
+    top: 47px;
+    left: 673px;
+    width: 54px;
+    height: 19px;
+}
+.mary{
+    font-family: PingFang TC;
+    font-size: 27px;
+    position: absolute;
+    top: 221px;
+    left: 223px;
+    color:#FFFFFF ;
+    
+}
+
+.beijin{
+   width: 768px;
+   height:333px ;
+}
+.touxiang{
+    position: absolute;
+    top: 109px;
+    left: 17px;
+    width: 178px;
+    height: 178px;
+}
+
+.medium{
+    position: absolute;
+    top:330px ;
+    left: 0px;
+    width: 768px;
+    height: 102px;
+
+}
+.juxing{
+    width: 768px;
+    height: 102px;
+}
+.favourite{
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 27px;
+    position: absolute;
+    top: 32px;
+    left: 33px;
+    color:#B7B7B7 ;
+}
+.aixin1{
+    position: absolute;
+    top:32px;
+    left: 135px;
+    width: 39px;
+    height: 37px;
+}
+.footer{
+    position: absolute;
+    top: 432px;
+    width:768px;
+    height:865px;
+}
+.p1{
+    position: absolute;
+    top:113px;
+    left: 48px;
+    width: 215px;
+    height: 268px;
+}
+.p2{
+    display: none;
+    position: absolute;
+    top:961px;
+    left: 75px;
+    width: 478px;
+    height: 595px;
+}
+
+.p3{
+    position: absolute;
+    top:479px;
+    left: 48px;
+    width: 215px;
+    height: 268px;
+}
+.aixin2{
+    position: absolute;
+    top:325px;
+    left: 344px;
+    width: 44px;
+    height: 42px;
+}
+.aixin3{
+    display: none;
+    position: absolute;
+    top:1434px;
+    left: 728px;
+    width: 97px;
+    height: 94px;
+}
+
+.aixin4{
+    position: absolute;
+    top:741px;
+    left: 344px;
+    width: 44px;
+    height: 42px;
+}
+.eryi{
+    font-family: PingFang TC;
+    font-size:32px;
+    position: absolute;
+    top: 206px;
+    left: 319px;
+    color:#707070;
+}
+.erer{
+    font-family: PingFang TC;
+    font-size:32px;
+    position:absolute;
+    top: 562px;
+    left: 319px;
+    color:#707070 ;
+}
+.yi{
+    display: none;
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 254px;
+    left: 728px;
+    width: 1073px;
+    height: 300px;
+    color:#707070 ;
+}
+.er{
+    display: none;
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 1032px;
+    left: 728px;
+    width: 1073px;
+    height: 300px;
+    color:#707070 ;
+}
+.san{
+    display: none;
+    margin-top: 0px;
+    font-family: PingFang TC;
+    font-size: 37px;
+    position: absolute;
+    top: 1810px;
+    left: 728px;
+    width: 1120px;
+    height: 492px;
+    color:#707070 ;
+}
+.zuihou{
+    position: absolute;
+    top: 1297px;
+    width: 768px;
+    height: 107px;
+}
+}
+
+@media (max-width:415px){
+    body{
+        position: relative;
+        margin:auto;
+        padding:0;
+        width: 415px;
+        background-color: white;
+    }
+    .zhuye{
+        font-family: PingFang TC;
+        font-size: 8px;
+        position: absolute;
+        top: 18px;
+        left: 329px;
+        color:#FFFFFF ;
+        color:rgba(255,255,255,0.7)
+    }
+    .logout{
+        position: absolute;
+        top: 23px;
+        left: 363px;
+        width: 50px;
+        height: 20px;
+    }
+    .mary{
+        font-family: PingFang TC;
+        font-size: 15px;
+        position: absolute;
+        top: 119px;
+        left: 120px;
+        color:#FFFFFF ;
+        
+    }
+    
+    .beijin{
+       width: 415px;
+       height:178px ;
+    }
+    .touxiang{
+        position: absolute;
+        top: 59px;
+        left: 9px;
+        width: 96px;
+        height: 96px;
+    }
+    
+    .medium{
+        position: absolute;
+        top:178px ;
+        left: 0px;
+        width: 414px;
+        height: 55px;
+    
+    }
+    .juxing{
+        width: 414px;
+        height: 55px;
+    }
+    .favourite{
+        margin-top: 0px;
+        font-family: PingFang TC;
+        font-size: 15px;
+        position: absolute;
+        top: 17px;
+        left: 18px;
+        color:#B7B7B7 ;
+    }
+    .aixin1{
+        position: absolute;
+        top:18px;
+        left: 73px;
+        width: 21px;
+        height: 20px;
+    }
+    .footer{
+        position: absolute;
+        top: 233px;
+        width:415px;
+        height:445px;
+    }
+    .p1{
+        position: absolute;
+        top:48px;
+        left: 26px;
+        width: 116px;
+        height: 145px;
+    }
+    .p2{
+        display: none;
+        position: absolute;
+        top:246px;
+        left: 26px;
+        width: 116px;
+        height: 145px;
+    }
+    
+    .p3{
+        position: absolute;
+        top:246px;
+        left: 26px;
+        width: 116px;
+        height: 145px;
+    }
+    .aixin2{
+        position: absolute;
+        top:162px;
+        left: 186px;
+        width: 24px;
+        height: 23px;
+    }
+    .aixin3{
+        display: none;
+        position: absolute;
+        top:387px;
+        left: 186px;
+        width: 24px;
+        height: 23px;
+    }
+    
+    .aixin4{
+        position: absolute;
+        top:387px;
+        left: 186px;
+        width: 24px;
+        height: 23px;
+    }
+    .eryi{
+        font-family: PingFang TC;
+        font-size: 18px;
+        position: absolute;
+        top: 99px;
+        left: 172px;
+        color:#707070 ;
+    }
+    .erer{
+        font-family: PingFang TC;
+        font-size: 18px;
+        position: absolute;
+        top: 291px;
+        left: 179px;
+        color:#707070 ;
+    }
+    .yi{
+        display: none;
+        margin-top: 0px;
+        font-family: PingFang TC;
+        font-size: 37px;
+        position: absolute;
+        top: 254px;
+        left: 728px;
+        width: 1073px;
+        height: 300px;
+        color:#707070 ;
+    }
+    .er{
+        display: none;
+        margin-top: 0px;
+        font-family: PingFang TC;
+        font-size: 37px;
+        position: absolute;
+        top: 1032px;
+        left: 728px;
+        width: 1073px;
+        height: 300px;
+        color:#707070 ;
+    }
+    .san{
+        display: none;
+        margin-top: 0px;
+        font-family: PingFang TC;
+        font-size: 37px;
+        position: absolute;
+        top: 1810px;
+        left: 728px;
+        width: 1120px;
+        height: 492px;
+        color:#707070 ;
+    }
+    .zuihou{
+        position: absolute;
+        top: 678px;
+        width: 415px;
+        height: 58px;
+    }
+    }

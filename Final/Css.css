@@ -1,0 +1,753 @@
+ 
+ 
+ body{
+      position: relative;
+      margin:auto;
+      padding:0;
+      width: 1920px;
+      background-color: black;
+  }
+  
+
+
+  .navone{
+    width: 1920px;
+    height: 1080px;
+    border-radius: 3px;
+  }
+  
+  .one{
+    width: 1920px;
+    height: 1080px;
+   
+  }
+  .two{
+    position: absolute;
+    top: 261px; 
+    width: 1920px;
+    height: 980px;
+    
+  }
+  .margin1{
+    position: absolute;
+    top:168px;
+    left:1001px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin2{
+    position: absolute;       
+    top:168px;
+    left:1200px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin3{
+    position: absolute;
+    top:168px;
+    left:1390px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin4{
+    position: absolute;
+    top:168px;
+    left:1580px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin5{
+    position: absolute;
+    top:168px;
+    right:84px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  } 
+  .sousuo{
+    position: absolute;
+    top:68px;
+    left  :1528px;
+    
+  }
+  .margin6{
+    position: absolute;
+    right:268px;
+    top:63px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin7{
+    position: absolute;
+    left:1296px;
+    top:63px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 33px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin8{
+    position: absolute;
+    left:1735px;
+    top:63px;
+    height: 50px;
+    width: 150px;
+    
+  }
+  .three{
+    position: absolute;
+    top:69px;
+    left:1239px;
+  }
+  .medium{
+    width:1920px;
+    height:2298px;
+    background-color: #FFFFFF;
+  }
+  .four{
+    height: 1077px;
+    width: 1920px;
+  }
+  .medium{
+    position: absolute;
+    top:1202px;
+  }
+  .m1{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 101px;
+    text-decoration: none;
+    position: absolute;
+    top:41px;
+    left:80px;
+  }
+  .m2{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 24px;
+    position: absolute;
+    top:175px;
+    left:1737px;
+  }
+  .m3{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 35px;
+    text-decoration: none;
+    position: absolute;
+    top:400px;
+    left:160px;
+  }
+  .m4{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 35px;
+    text-decoration: none;
+    position: absolute;
+    top:400px;
+    left:741px;
+  }
+  .m5{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 35px;
+    text-decoration: none;
+    position: absolute;
+    top:400px;
+    left:1360px;
+  }
+  .m6{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 101px;
+    text-decoration: none;
+    position: absolute;
+    top:1100px;
+    left:76px;
+  }
+  .m7{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 24px;
+    position: absolute;
+    top:1181px;
+    left:506px;
+  }
+  .aixin1{
+    position: absolute;
+    top:404px;
+    left: 539px;
+  }
+  .aixin2{
+    position: absolute;
+    top:404px;
+    left:1158px;
+  }
+  .aixin3{
+    position: absolute;
+    top:404px;
+    left: 1733px;
+  }
+  .p1{
+    position: absolute;
+    top: 486px;
+    left: 139px;
+  }
+  .p2{
+    position: absolute;
+    top: 486px;
+    left: 736px;
+  }
+  .p3{
+    position: absolute;
+    top: 486px;
+    left: 1339px;
+  }
+  .p4{
+    position: absolute;
+    top:1313px;
+    left: 76px;
+  }
+  .p5{
+    position: absolute;
+    top:1313px;
+    left: 712px;
+  }
+  .p6{
+    position: absolute;
+    top:1313px;
+    left: 1348px;
+  }
+  .luojiao1{
+    position: absolute;
+    top:2106px; 
+  }
+
+  
+  
+@media (max-width:768px){
+    body{
+      position: relative;
+      margin:auto;
+      padding:0;
+      width: 768px;
+      background-color: black;
+  }
+  
+  .navone{
+    width: 768px;
+    height: 432px;
+  }
+  
+  .one{
+    width: 768px;
+    height: 432px;
+   
+  }
+  .two{
+    position: absolute;
+    top: 97px; 
+    width: 768px;
+    height: 384px;
+    
+  }
+  .margin1{
+    position: absolute;
+    top:68px;
+    left:400px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin2{
+    position: absolute;       
+    top:68px;
+    left:480px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin3{
+    position: absolute;
+    top:68px;
+    left:556px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin4{
+    position: absolute;
+    top:68px;
+    left:632px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin5{
+    position: absolute;
+    top:68px;
+    right: 17px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  } 
+  .sousuo{
+    position: absolute;
+    top:27px;
+    left  :610px;
+    height: 14.4px;
+    width: 14.4px;
+    
+  }
+  .margin6{
+    position: absolute;
+    right: 108px;
+    top:26px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin7{
+    position: absolute;
+    left:518px;
+    top:26px;
+    font-family:PingFang TC;
+    color:#FFFFFF;
+    font-size: 13px;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin8{
+    position: absolute;
+    left:694px;
+    top:26px;
+    height: 20px;
+    width: 60px;
+    
+  }
+  .three{
+    position: absolute;
+    top:27px;
+    left:495px;
+    height: 16px;
+    width: 16px;
+  }
+  .medium{
+    width:768px;
+    height:926px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:481px;
+  }
+  .four{
+    height: 430px;
+    width: 768px;
+  }
+  
+  .m1{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    top:31px;
+    left:16px;
+  }
+  .m2{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 9px;
+    position: absolute;
+    top:70px;
+    left:694px;
+  }
+  .m3{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    top:160px;
+    left:64px;
+  }
+  .m4{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    top:160px;
+    left:296px;
+  }
+  .m5{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    top:160px;
+    left:544px;
+  }
+  .m6{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 40px;
+    text-decoration: none;
+    position: absolute;
+    top:458px;
+    left:30px;
+  }
+  .m7{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 24px;
+    position: absolute;
+    top:507px;
+    left:202px;
+  }
+  .aixin1{
+    position: absolute;
+    top:160px;
+    left: 215px;
+    height: 17px;
+    width: 17px;
+  }
+  .aixin2{
+    position: absolute;
+    top:160px;
+    left:463px;
+    height: 17px;
+    width: 17px;
+    
+  }
+  .aixin3{
+    position: absolute;
+    top:160px;
+    left: 693px;
+    height: 17px;
+    width: 17px;
+  }
+  .p1{
+    position: absolute;
+    top: 194px;
+    left: 56px;
+    width: 177px;
+    height: 192px;
+  }
+  .p2{
+    position: absolute;
+    top: 194px;
+    left: 294px;
+    width: 177px;
+    height: 192px;
+  }
+  .p3{
+    position: absolute;
+    top: 194px;
+    left: 535px;
+    width: 177px;
+    height: 192px;
+  }
+  .p4{
+    position: absolute;
+    top:542px;
+    left: 30px;
+    width: 191px;
+    height: 238px;
+  }
+  .p5{
+    position: absolute;
+    top:542px;
+    left: 285px;
+    width: 191px;
+    height: 238px;
+  }
+  .p6{
+    position: absolute;
+    top:542px;
+    left: 539px;
+    width: 191px;
+    height: 238px;
+  }
+  .luojiao1{
+    position: absolute;
+    top:860px; 
+    width: 768px;
+    height: 66px;
+  }
+  
+  }
+
+@media (max-width:415px){
+    body{
+      position: relative;
+      margin:auto;
+      padding:0;
+      width: 415px;
+      background-color: black;
+  }
+  
+  .navone{
+    width: 415px;
+    height: 233px;
+  }
+  
+  .one{
+    width: 415px;
+    height: 233px;
+   
+  }
+  .two{
+    position: absolute;
+    top: 51px; 
+    width: 415px;
+    height: 208px;
+    
+  }
+  .margin1{
+    position: absolute;
+    top:32px;
+    left:80px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin2{
+    position: absolute;       
+    top:32px;
+    left:140px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin3{
+    position: absolute;
+    top:32px;
+    left:200px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin4{
+    position: absolute;
+    top:32px;
+    left:260px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin5{
+    position: absolute;
+    top:32px;
+    left:320px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  } 
+  .sousuo{
+    position: absolute;
+    top:11px;
+    left  :240px;
+    height: 11px;
+    width: 11px;
+    
+  }
+  .margin6{
+    position: absolute;
+   left: 250px;
+    top:9px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin7{
+    position: absolute;
+    left:160px;
+    top:9px;
+    font-family:Helvetica Neue;
+    color:#FFFFFF;
+    font-size: 5pt;
+    text-decoration: none;
+    color:rgba(255,255,255,0.7)
+  }
+  .margin8{
+    position: absolute;
+    left:320px;
+    top:10px;
+    height: 15px;
+    width: 40px;
+    
+  }
+  .three{
+    position: absolute;
+    top:11px;
+    left:150px;
+    height: 11px;
+    width: 11px;
+  }
+  .medium{
+    width:415px;
+    height:448px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top:259px;
+  }
+  .four{
+    height: 233px;
+    width: 415px;
+  }
+  
+  .m1{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 21px;
+    text-decoration: none;
+    position: absolute;
+    top:16px;
+    left:9px;
+  }
+  .m2{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 4px;
+    position: absolute;
+    top:38px;
+    left:300px;
+  }
+  .m3{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 3px;
+    text-decoration: none;
+    position: absolute;
+    top:85px;
+    left:15px;
+  }
+  .m4{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 3px;
+    text-decoration: none;
+    position: absolute;
+    top:85px;
+    left:155px;
+  }
+  .m5{
+    font-family:PingFang TC;
+    color:#797979;
+    font-size: 3px;
+    text-decoration: none;
+    position: absolute;
+    top:85px;
+    left:285px;
+  }
+  .m6{
+    font-family:PingFang TC;
+    color:#FFCD5D;
+    font-size: 21px;
+    text-decoration: none;
+    position: absolute;
+    top:247px;
+    left:30px;
+  }
+
+ 
+  .p1{
+    position: absolute;
+    top: 105px;
+    left: 30px;
+    width: 96px;
+    height: 104px;
+  }
+  .p2{
+    position: absolute;
+    top: 105px;
+    left: 160px;
+    width: 96px;
+    height: 104px;
+  }
+  .p3{
+    position: absolute;
+    top: 105px;
+    left: 290px;
+    width: 96px;
+    height: 104px;
+  }
+  .p4{
+    position: absolute;
+    top:291px;
+    left: 16px;
+    width: 105px;
+    height: 129px;
+  }
+  .p5{
+    position: absolute;
+    top:291px;
+    left: 155px;
+    width: 105px;
+    height: 129px;
+  }
+  .p6{
+    position: absolute;
+    top:291px;
+    left: 291px;
+    width: 105px;
+    height: 129px;
+  }
+  .luojiao1{
+    position: absolute;
+    top:445px; 
+    width: 415px;
+    height: 34px;
+  }
+  
+  }
+  
+  
+
+
+
+
+

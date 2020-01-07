@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>澳門三</title>
+    <link rel="stylesheet" type="text/css" href="Css2.css">
+    <script type="text/javascript" src="js/jquery.fireworks.js"></script>
+</head>
+<body>
+    <div class="head">
+        <p class="zhuye">主頁</p>
+        <a href="./index1.html" target="blank" alt="error 404">
+        <img src=./picture/L/LOGOUT.png  class="logout">
+        <a href="./index.html" target="blank" alt="error 404">
+        <p 主頁 class="zhuye">
+        <p class="mary">Mary</p>
+        <img src="./picture/L/f3IdkiTAvwDR1T5dLiG7.png "class="beijin">
+        <img src="./picture/L/1fbdc73a624e7b69eea63b7c4486d946.png "class="touxiang">
+    </div>
+    <div class="medium">
+        <p class="favourite">已收藏</p>
+        <img src="./picture/L/Icon ionic-ios-heart.png" class="aixin1">
+        <img src="./picture/L/矩形 38.png" class="juxing">
+    </div>
+    <div class="footer">
+        <img src="./picture/L/showimage.png" class="p1">
+        <img src="./picture/L/moblieBanner.png" class="p2">
+        <img src="./picture/L/TL-1.png" class="p3">
+        <img src="./picture/L/Icon ionic-ios-heart-1.png" class="aixin2">
+        <img src="./picture/L/Icon ionic-ios-heart-2.png" class="aixin3">
+        <img src="./picture/L/Icon ionic-ios-heart-3.png" class="aixin4">
+        <p class="yi">百香歸來——冬季花卉展<br>本年度冬季花卉展以「百香歸來——冬季花卉展」。展覽期間，小 城多個主要公園和花園擺滿了繽紛美麗的鬱金香，毗鄰氹仔龍環葡 韻的主要展覽場地還設有花卉藝術展覽、比賽、講座和文化表演。</p>
+        <p class="er">第19屆澳門城市藝穗節<br>第十九屆澳門城市藝穗節以“搞作無譜，地膽帶路”為題，帶來兩個 “穗內有萃”主題行程，另有一系列貼地探索兼創意離地的精彩節目 和延伸活動，由一眾本地藝術家帶路，引領各地表演者遊走大街小 區不同角落，一起遊歷充滿奇思妙想的旅程！</p>
+        <p class="san">林志炫ONEtake2.0世界巡回演唱会澳門站<br>美聲天王林志炫將於2020年1月11日在澳門威尼斯人®金光綜藝館舉 行，展示其三十年的音樂成就。 這次演唱會中，林志炫除了會送上其經典金曲之外，亦特別為澳門觀 眾準備了專屬的環節和驚艷絕倫的舞檯燈光。 《林志炫ONEtake2.0 世界巡迴演唱會》是林志炫原創「ONE take理念」的大膽實踐，也代 表著他作為歌手對自己的最高要求，現場演唱一遍成型，不需修音和 剪接。歌迷敬請火速購票，於現場聆聽樂壇才華歌手林志炫的限量版 音樂饗宴。</p>
+        <p class="eryi">百香歸來——冬季花卉展</p>
+        <p class="erer">林志炫ONEtake2.0 世界巡回演唱会澳門站</p>
+    </div>
+    <img src="./picture/L/矩形 44.png" class="zuihou">
+    <canvas id="usa"></canvas>
+
+    <script>
+
+    'use strict'
+
+    const PI2 = Math.PI * 2
+let random = (min, max) => Math.random() * (max - min + 1) + min | 0
+
+class Merica {
+  constructor() {
+    this.resize()
+
+    this.fireworks = []
+    this.counter = 0
+
+  }
+  resize() {
+    this.width = canvas.width = window.innerWidth
+    let center = this.width / 2 | 0
+    this.spawnA = center - center / 4 | 0
+    this.spawnB = center + center / 4 | 0
+
+    this.height = canvas.height = window.innerHeight
+    this.spawnC = this.height * .1
+    this.spawnD = this.height * .5
+
+  }
+  onClick(evt) {
+    let x = evt.clientX || evt.touches && evt.touches[0].pageX
+    let y = evt.clientY || evt.touches && evt.touches[0].pageY
+
+    let count = random(3, 5)
+    for (let i = 0; i < count; i++) this.fireworks.push(new Firework(
+      random(this.spawnA, this.spawnB),
+      this.height,
+      x,
+      y,
+      random(300, 400),
+      random(30, 100)))
+
+    this.counter = -30
+
+  }
+  update() {
+    ctx.globalCompositeOperation = 'hard-light'
+    ctx.fillStyle = 'rgba(255,255,255,0)'
+    ctx.fillRect(0, 0, this.width, this.height)
+
+    ctx.globalCompositeOperation = 'lighter'
+    for (let firework of this.fireworks) firework.update()
+
+    if (++this.counter === 15) {
+      this.fireworks.push(new Firework(
+        random(this.spawnA, this.spawnB),
+        this.height,
+        random(0, this.width),
+        random(this.spawnC, this.spawnD),
+        random(300, 450),
+        random(30, 110)))
+      this.counter = 0
+    }
+
+    if (this.fireworks.length > 1000) this.fireworks = this.fireworks.filter((firework) => !firework.dead)
+
+  }
+}
+
+class Firework {
+  constructor(x, y, targetX, targetY, shade, offsprings) {
+    this.dead = false
+    this.offsprings = offsprings
+
+    this.x = x
+    this.y = y
+    this.targetX = targetX
+    this.targetY = targetY
+
+    this.shade = shade
+    this.history = []
+  }
+  update() {
+    if (this.dead) return;
+
+    let xDiff = this.targetX - this.x
+    let yDiff = this.targetY - this.y
+    if (Math.abs(xDiff) > 3 || Math.abs(yDiff) > 3) {
+      this.x += xDiff / 20
+      this.y += yDiff / 20
+
+      this.history.push({
+        x: this.x,
+        y: this.y
+      })
+
+      if (this.history.length > 20) this.history.shift()
+
+    } else {
+      if (this.offsprings && !this.madeChilds) {
+
+        let start = this.offsprings / 2;
+        for (let i = 0; i < start; i++) {
+          let targetX = this.x + this.offsprings * Math.cos(PI2 * i / start) | 0
+          let targetY = this.y + this.offsprings * Math.sin(PI2 * i / start) | 0
+
+          usa.fireworks.push(new Firework(this.x, this.y, targetX, targetY, this.shade, 0))
+
+        }
+
+      }
+      this.madeChilds = true
+      this.history.shift()
+    }
+
+    if (this.history.length === 0) this.dead = true
+    else if (this.offsprings)
+      for (let i = 0; this.history.length > i; i++) {
+        let point = this.history[i]
+        ctx.beginPath()
+        ctx.fillStyle = 'hsl(' + this.shade + ',100%,' + i + '%)'
+        ctx.arc(point.x, point.y, 1, 0, PI2, false)
+        ctx.fill()
+      }
+    else {
+      ctx.beginPath()
+      ctx.fillStyle = 'hsl(' + this.shade + ',100%,50%)'
+      ctx.arc(this.x, this.y, 1, 0, PI2, false)
+      ctx.fill()
+    }
+
+  }
+}
+
+let canvas = document.getElementById('usa')
+let ctx = canvas.getContext('2d')
+
+let usa = new Merica
+window.onresize = () => usa.resize()
+document.onclick = (evt) => usa.onClick(evt)
+document.ontouchstart = (evt) => usa.onClick(evt)
+
+;
+(function update() {
+  requestAnimationFrame(update)
+  usa.update()
+
+}())
+
+  </script>
+
+</body>
+
+</html>
+
